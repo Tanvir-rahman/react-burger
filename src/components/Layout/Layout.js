@@ -4,12 +4,12 @@ import Aux from '../../hoc/_Aux';
 import classes from './Layout.css';
 
 const layout = ( props ) => (
-  <Aux>
-    <div>Toolbar, Sidebar and Backdrop</div>
-    <main className={classes.Content}>
-      {props.children}
-    </main>
-  </Aux>
+    <Aux>
+        <div>Toolbar, SideDrawer, Backdrop</div>
+        <main className={classes.Content}>
+            {props.children}
+        </main>
+    </Aux>
 );
 
 export default layout;
